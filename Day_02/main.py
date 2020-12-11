@@ -2,8 +2,8 @@
 # Solution to the AOC2020 Challenge 3/4
 # https://adventofcode.com/2020/day/2
 
-# GOAL 1: Return the number of "passwords" that meet their criteria
-# GOAL 2: ???
+# GOAL 1: Return the number of "passwords" that have char in the range give
+# GOAL 2: Return the number of "passwords" that have char at only 1 location.
 
 def sled_password_check(password: str, char, min, max):
     return min <= password.count(char) <= max
